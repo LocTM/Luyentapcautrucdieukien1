@@ -106,3 +106,13 @@
 //     }
 //     alert(`Hoa hồng nhận được cho doanh số ${doanhSo} là: ${hoaHong}`);
 // }
+
+// Tính cước điện thoại cho một hộ gia đình với các thông số đã cho
+let soPhutSuDung = +prompt("Nhập số phút sử dụng điện thoại: ");
+let giaCuocCoBan = +prompt("Nhập giá cước cơ bản: ");
+function tinhCuocDienThoai(soPhutSuDung, giaCuocCoBan) {
+    let cuocDienThoai = soPhutSuDung * giaCuocCoBan;
+    return cuocDienThoai;
+}
+let cuocDienThoai = tinhCuocDienThoai(soPhutSuDung, giaCuocCoBan);
+console.log("Tổng cước điện thoại là: " + cuocDienThoai);
