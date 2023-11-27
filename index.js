@@ -22,3 +22,35 @@
 //     }
 // }
 // checkTuoi(a)
+
+// Nhập một số nguyên bất kỳ và in kết quả ra màn hình để nói cho người dùng biết số đó là lớn hay nhỏ hơn 0
+// let a = prompt("Nhap vao so a: ");
+// function checkA(){
+//     if(a>0){
+//         console.log("So nay lon hon 0")
+//     }
+//     if(a<0){
+//         console.log("So nay nho hon 0")
+//     }
+//     if (a == 0){
+//         console.log("Day la so 0")
+//     }
+// }
+// checkA();
+// Nhập 3 số nguyên và tìm giá trị lớn nhất của ba số nguyên đó
+// let a = prompt("Nhap vao so a: ");
+// let b = prompt("Nhap vao so b: ");
+// let c = prompt("Nhap vao so c: ");
+// function checkmax(a,b,c){
+//   let max = a;
+//     if( b > max){
+//         max = b;
+//     }
+//     if(c > max ){
+//         max = c;
+//     }
+//
+//     return max;
+// }
+// result=checkmax(a, b, c);
+// console.log(checkmax(a, b, c));
